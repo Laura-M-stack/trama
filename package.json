@@ -1,0 +1,12 @@
+{
+  "name": "trama",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Demo de tienda de ropa con talles, stock, envío por código postal y carrito. HTML, CSS y JavaScript sin dependencias.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}

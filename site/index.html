@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trama — Ropa de diario | Tienda de ejemplo</title>
+<meta name="description" content="Tienda de ropa de ejemplo con talles, stock, envío por código postal y carrito. Demo de portfolio.">
+<meta name="theme-color" content="#FAF8F4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#catalogo">Saltar al catálogo</a>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#">Trama</a>
+  <nav aria-label="Principal"><a href="#catalogo">Catálogo</a><a href="#historia">Historia</a><a href="#talles">Talles</a><a href="#envios">Envíos</a></nav>
+  <button id="open-cart" class="cart-btn" type="button" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg> <span>Carrito</span> <span id="cart-count" aria-label="0 productos">0</span></button>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+  <div>
+    <p class="hero-kicker">Colección otoño · invierno</p>
+    <h1>Ropa de diario, <em>bien hecha.</em></h1>
+    <p class="lead">Camisas, vestidos, jeans y abrigos en telas nobles y cortes que duran. Elegí tu talle, calculá el envío con tu código postal y armá el pedido en un minuto.</p>
+    <a class="btn btn-primary" href="#catalogo">Ver la colección</a>
+  </div>
+  <figure><img class="hero-img" src="https://images.unsplash.com/photo-1496217590455-aa63a8350eea?w=900&h=1125&fit=crop&q=75&fm=jpg" width="900" height="1125" alt="Mujer con un conjunto de verano apoyada en un portón verde azulado"><figcaption>Ejemplo de imagen de campaña</figcaption></figure>
+</div></section>
+<section id="catalogo" class="wrap" aria-labelledby="cat-h">
+  <div class="sec-title"><h2 id="cat-h">Catálogo</h2><span>9 prendas de ejemplo</span></div>
+  <div class="toolbar">
+    <div id="filters" class="filters"></div>
+    <div class="tools">
+      <label class="field"><span>Buscar prenda</span><input id="search" type="search" placeholder="Ej. camisa, jean" autocomplete="off"></label>
+      <label class="field"><span>Ordenar</span><select id="sort"><option value="relevance">Destacados</option><option value="price-asc">Menor precio</option><option value="price-desc">Mayor precio</option><option value="name">Nombre (A-Z)</option></select></label>
+    </div>
+  </div>
+  <p id="results-live" class="sr" aria-live="polite"></p>
+  <ul id="grid" class="grid"></ul>
+  <div id="empty" class="empty" hidden><p>No encontramos nada con esos filtros.</p><button id="clear-filters" class="btn btn-quiet" type="button">Limpiar filtros</button></div>
+</section>
+<section id="historia" class="block story" aria-labelledby="hist-h"><div class="wrap story-grid">
+  <figure>
+    <img src="https://images.unsplash.com/photo-1517840545241-b491010a8af4?w=1000&h=750&fit=crop&q=75&fm=jpg" width="1000" height="750" loading="lazy" alt="Costurera trabajando una tela verde en una máquina de coser">
+    <figcaption>Ejemplo de imagen del taller</figcaption>
+  </figure>
+  <div>
+    <p class="hero-kicker">Nuestra historia</p>
+    <h2 id="hist-h">Dos máquinas, un taller y una idea simple.</h2>
+    <p>Trama empezó en 2016 en un taller de Villa Crespo, con dos máquinas de coser y una pregunta: por qué la ropa de diario dura una temporada. Empezamos con camisas, que son lo que mejor sabíamos hacer, y fuimos sumando lo que nos pedían.</p>
+    <blockquote><p>La prenda más sustentable es la que te ponés diez años.</p></blockquote>
+    <ul class="principles">
+      <li><strong>Telas que duran.</strong> Lino, algodón y lana, con costuras dobles donde la prenda trabaja.</li>
+      <li><strong>Cortes que no pasan de moda.</strong> Pocas prendas, bien resueltas, que se mezclan entre sí.</li>
+      <li><strong>Tandas chicas.</strong> Producimos de a poco; cuando se agota un talle, esperá la próxima tanda.</li>
+    </ul>
+  </div>
+</div></section>
+<section id="talles" class="block wrap" aria-labelledby="talles-h">
+  <h2 id="talles-h">Guía de talles</h2>
+  <p class="lead">Medidas del cuerpo en centímetros. Si estás entre dos talles, mirá el calce de cada prenda en su detalle.</p>
+  <div class="size-tables">
+    <div class="tbl-wrap" tabindex="0" role="region" aria-label="Talles de camisas, vestidos, abrigos y remeras">
+      <table class="tbl"><caption>Camisas, vestidos, abrigos y remeras</caption>
+        <thead><tr><th scope="col">Talle</th><th scope="col">Busto</th><th scope="col">Cintura</th><th scope="col">Cadera</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">S</th><td>84-88</td><td>66-70</td><td>92-96</td></tr>
+          <tr><th scope="row">M</th><td>90-94</td><td>72-76</td><td>98-102</td></tr>
+          <tr><th scope="row">L</th><td>96-100</td><td>78-82</td><td>104-108</td></tr>
+          <tr><th scope="row">XL</th><td>102-106</td><td>84-88</td><td>110-114</td></tr>
+        </tbody></table>
+    </div>
+    <div class="tbl-wrap" tabindex="0" role="region" aria-label="Talles de pantalones">
+      <table class="tbl"><caption>Pantalones</caption>
+        <thead><tr><th scope="col">Talle</th><th scope="col">Cintura</th><th scope="col">Cadera</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">38</th><td>66-70</td><td>92-96</td></tr>
+          <tr><th scope="row">40</th><td>72-76</td><td>98-102</td></tr>
+          <tr><th scope="row">42</th><td>78-82</td><td>104-108</td></tr>
+          <tr><th scope="row">44</th><td>84-88</td><td>110-114</td></tr>
+        </tbody></table>
+    </div>
+  </div>
+</section>
+<section id="envios" class="benefits"><div class="wrap"><ul><li><strong>Envío gratis desde $ 120.000</strong><span>En todo el país, con seguimiento.</span></li><li><strong>3 cuotas sin interés</strong><span>Con tarjetas seleccionadas.</span></li><li><strong>Cambios por talle</strong><span>Dentro de los 30 días, sin vueltas.</span></li></ul></div></section>
+</main>
+<footer class="foot"><div class="wrap">
+  <p>Colección y precios de ejemplo. Es una demostración: no se procesan pagos reales.</p>
+  <p>Fotos: <a href="https://unsplash.com">Unsplash</a>. Sitio de ejemplo hecho por <a href="https://laura-moyano-web.pages.dev/es">Laura Moyano</a>.</p>
+</div></footer>
+
+<dialog id="pdialog" class="dlg dlg-product" aria-labelledby="p-title">
+  <button id="p-close" class="icon-btn dlg-close" type="button" aria-label="Cerrar detalle">&times;</button>
+  <div class="p-grid">
+    <img id="p-img" class="p-img" src="" alt="" width="900" height="1125">
+    <div class="p-info">
+      <h2 id="p-title" class="p-title"></h2>
+      <p id="p-desc" class="p-desc"></p>
+      <dl id="p-details" class="p-details" hidden></dl>
+      <fieldset id="p-variants" class="p-variants">
+        <legend id="p-variants-legend"></legend>
+        <div id="p-options" class="opts"></div>
+      </fieldset>
+      <label id="p-sub-wrap" class="sub" hidden><input id="p-sub" type="checkbox"><span>Recibirlo todos los meses <strong>(10% menos)</strong></span></label>
+      <div class="p-price-row"><span id="p-price" class="p-price"></span><span id="p-inst" class="inst"></span></div>
+      <p id="p-note" class="p-note" role="status"></p>
+      <p id="p-live" class="sr" aria-live="polite"></p>
+      <button id="p-add" class="btn btn-primary btn-block" type="button">Agregar al carrito</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="cart" class="dlg dlg-cart" aria-labelledby="cart-title">
+  <div class="cart-head">
+    <h2 id="cart-title">Tu carrito</h2>
+    <button id="close-cart" class="icon-btn" type="button" aria-label="Cerrar carrito">&times;</button>
+  </div>
+  <p id="cart-empty" class="cart-empty">Todavía no agregaste nada. Mirá el catálogo y elegí lo que te guste.</p>
+  <div id="cart-body" class="cart-body" hidden>
+    <p id="free-ship" class="free-ship" aria-live="polite"></p>
+    <div id="free-bar" class="free-bar" aria-hidden="true"><span></span></div>
+    <ul id="cart-list" class="cart-list"></ul>
+    <form id="postal-form" class="postal" novalidate>
+      <label for="postal">Código postal para calcular el envío</label>
+      <div class="postal-row">
+        <input id="postal" name="postal" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="8" placeholder="Ej. 1425">
+        <button class="btn btn-quiet" type="submit">Calcular</button>
+      </div>
+      <p id="postal-msg" class="postal-msg" role="status"></p>
+    </form>
+    <dl class="totals">
+      <div><dt>Subtotal</dt><dd id="t-sub"></dd></div>
+      <div id="t-save-row" hidden><dt>Ahorro por envío mensual</dt><dd id="t-save"></dd></div>
+      <div><dt>Envío</dt><dd id="t-ship"></dd></div>
+      <div class="totals-total"><dt>Total</dt><dd id="t-total"></dd></div>
+    </dl>
+    <p id="t-total-note" class="t-note"></p>
+    <p id="t-inst" class="inst"></p>
+    <button id="checkout" class="btn btn-primary btn-block" type="button">Finalizar compra</button>
+    <p id="demo-msg" class="demo-msg" role="status"></p>
+  </div>
+</dialog>
+
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
