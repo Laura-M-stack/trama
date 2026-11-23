@@ -86,8 +86,8 @@ export const PRODUCTS = [
         "Suelto. Si estás entre dos talles, elegí el menor."
       ]
     ],
-    "img": "https://images.unsplash.com/photo-1713881676551-b16f22ce4719?w=600&h=750&fit=crop&q=75&fm=jpg",
-    "imgLarge": "https://images.unsplash.com/photo-1713881676551-b16f22ce4719?w=900&h=1125&fit=crop&q=80&fm=jpg"
+    "img": "img/fotos/camisa-lino-600x750.webp",
+    "imgLarge": "img/fotos/camisa-lino-900x1125.webp"
   },
   {
     "id": "camisa-oxford",
@@ -134,8 +134,8 @@ export const PRODUCTS = [
         "Recto, ni ajustado ni suelto."
       ]
     ],
-    "img": "https://images.unsplash.com/photo-1713881842156-3d9ef36418cc?w=600&h=750&fit=crop&q=75&fm=jpg",
-    "imgLarge": "https://images.unsplash.com/photo-1713881842156-3d9ef36418cc?w=900&h=1125&fit=crop&q=80&fm=jpg"
+    "img": "img/fotos/camisa-oxford-600x750.webp",
+    "imgLarge": "img/fotos/camisa-oxford-900x1125.webp"
   },
   {
     "id": "vestido-camisero",
@@ -178,8 +178,8 @@ export const PRODUCTS = [
         "Cintura marcada con cinturón. Largo midi."
       ]
     ],
-    "img": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=600&h=750&fit=crop&q=75&fm=jpg",
-    "imgLarge": "https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?w=900&h=1125&fit=crop&q=80&fm=jpg"
+    "img": "img/fotos/vestido-camisero-600x750.webp",
+    "imgLarge": "img/fotos/vestido-camisero-900x1125.webp"
   },
   {
     "id": "vestido-verano",
@@ -221,8 +221,8 @@ export const PRODUCTS = [
         "Vuelo amplio, tiras regulables."
       ]
     ],
-    "img": "https://images.unsplash.com/photo-1623288516140-47a0a17cec7c?w=600&h=750&fit=crop&q=75&fm=jpg",
-    "imgLarge": "https://images.unsplash.com/photo-1623288516140-47a0a17cec7c?w=900&h=1125&fit=crop&q=80&fm=jpg"
+    "img": "img/fotos/vestido-verano-600x750.webp",
+    "imgLarge": "img/fotos/vestido-verano-900x1125.webp"
   },
   {
     "id": "jean-recto",
@@ -269,8 +269,8 @@ export const PRODUCTS = [
         "Tiro alto y pierna recta. Mirá la guía de talles."
       ]
     ],
-    "img": "https://images.unsplash.com/photo-1713880453396-aa0493e308ec?w=600&h=750&fit=crop&q=75&fm=jpg",
-    "imgLarge": "https://images.unsplash.com/photo-1713880453396-aa0493e308ec?w=900&h=1125&fit=crop&q=80&fm=jpg"
+    "img": "img/fotos/jean-recto-600x750.webp",
+    "imgLarge": "img/fotos/jean-recto-900x1125.webp"
   },
   {
     "id": "jean-mom",
@@ -317,8 +317,8 @@ export const PRODUCTS = [
         "Cintura marcada, cadera holgada y botamanga con dobladillo."
       ]
     ],
-    "img": "https://images.unsplash.com/photo-1721637222188-fa7bf56ceaf5?w=600&h=750&fit=crop&q=75&fm=jpg",
-    "imgLarge": "https://images.unsplash.com/photo-1721637222188-fa7bf56ceaf5?w=900&h=1125&fit=crop&q=80&fm=jpg"
+    "img": "img/fotos/jean-mom-600x750.webp",
+    "imgLarge": "img/fotos/jean-mom-900x1125.webp"
   },
   {
     "id": "polera-lana",
@@ -361,8 +361,8 @@ export const PRODUCTS = [
         "Ajustada al cuello, suelta en el cuerpo."
       ]
     ],
-    "img": "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?w=600&h=750&fit=crop&q=75&fm=jpg",
-    "imgLarge": "https://images.unsplash.com/photo-1574201635302-388dd92a4c3f?w=900&h=1125&fit=crop&q=80&fm=jpg"
+    "img": "img/fotos/polera-lana-600x750.webp",
+    "imgLarge": "img/fotos/polera-lana-900x1125.webp"
   },
   {
     "id": "cardigan-gris",
@@ -409,8 +409,8 @@ export const PRODUCTS = [
         "Holgado, pensado para usar sobre otra capa."
       ]
     ],
-    "img": "https://images.unsplash.com/photo-1579206464424-7e43a81cadc1?w=600&h=750&fit=crop&q=75&fm=jpg",
-    "imgLarge": "https://images.unsplash.com/photo-1579206464424-7e43a81cadc1?w=900&h=1125&fit=crop&q=80&fm=jpg"
+    "img": "img/fotos/cardigan-gris-600x750.webp",
+    "imgLarge": "img/fotos/cardigan-gris-900x1125.webp"
   },
   {
     "id": "remera-basica",
@@ -457,7 +457,7 @@ export const PRODUCTS = [
         "Regular, cuello redondo reforzado."
       ]
     ],
-    "img": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=600&h=750&fit=crop&q=75&fm=jpg",
-    "imgLarge": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=900&h=1125&fit=crop&q=80&fm=jpg"
+    "img": "img/fotos/remera-basica-600x750.webp",
+    "imgLarge": "img/fotos/remera-basica-900x1125.webp"
   }
 ];
